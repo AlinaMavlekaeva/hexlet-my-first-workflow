@@ -1,7 +1,7 @@
-name: show-directory
+name: say-helloworld
 on: push
-jobs:
-  build:
+  jobs:
+    build:
        runs-on: ubuntu-latest
     steps: 
           - uses: actions/checkout@v4
